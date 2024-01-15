@@ -78,3 +78,17 @@ table{
     color: darkred;
 }
 
+@media screen and (max-width: 600px){
+    main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "h"
+    "as"
+    "ar"
+    "f";
+    border: 3px darkblue solid;
+    margin: 20px;
+
+}
+ 
